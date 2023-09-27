@@ -11,12 +11,12 @@ config_version=4
 [application]
 
 config/name="Pong2"
-run/main_scene="res://Level.tscn"
+run/main_scene="res://level/Level.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-GameData="*res://GameData.gd"
+GameData="*res://autoload/GameData.gd"
 
 [display]
 

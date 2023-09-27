@@ -5,6 +5,7 @@ extends Node2D
 export (String, FILE, "*.tscn") var target_level
 
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	GameData.bricks_count = $Bricks.get_child_count()
