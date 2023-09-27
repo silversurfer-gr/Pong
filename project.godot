@@ -18,6 +18,10 @@ config/icon="res://icon.png"
 
 GameData="*res://GameData.gd"
 
+[display]
+
+window/size/height=720
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
