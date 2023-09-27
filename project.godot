@@ -14,6 +14,10 @@ config/name="Pong2"
 run/main_scene="res://Level.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameData="*res://GameData.gd"
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
